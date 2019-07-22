@@ -46,80 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*css starts here*/
+body{
+	background-color: red;
+}
+h1{
+	text-align: center;
+}
 .wrapper{
 	max-width: 1000px;
 	margin:0 auto;
-	padding: 0 30px;
-	
 }
-nav{
-	float:right;
-	color:white;
-	
-}
-h1{
-	font-size: 30px;
-	float:left;
-	text-transform: uppercase;
-}
-header{
-	background-color: #04396B;
-	line-height: 20px;
-	padding: 10px;
-	color:white;
 
-}
-a{
-	margin-left: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	color:white;
-
-}
-.parent:before, .parent:after{
-	content: "";
-	display: table;
-}
-.parent:after{
-	clear:both;
-}
-h2{
-	font-size: 25px;
-	margin-bottom: 10px;
-}
-p{
-	font-size: 20px;
-	line-height: 25px;
-}
 .column1{
-	width: 40%;
-	float: left;
-	margin-top: 20px;
-
-
-
-
-}
-img{
-	height: auto;
-	width: 100%;
-}
-.column2{
-	width: 40%;
-	float: right;
-	margin: 20px;
-
-}
-body{
-	background-color: #6DDB94;
-}
-footer{
-	text-align: center;
-	margin-top: 200px;
-	background-color: #04396B;
-	font-size: 20px;
-}
-hr{
-	box-sizing: border-box;
-	border: 2px solid #04396B;
+	width:300px;
+	background-color: yellow;
+	border:1.5px solid black;
 }
